@@ -1,1 +1,6 @@
 allow hal_lineage_touch_default vendor_sysfs_touch:file rw_file_perms;
+
+# Binder / AIDL permissions for Lineage touch service
+binder_use(hal_lineage_touch_default)
+add_service(hal_lineage_touch_default, hal_lineage_touch_service)
+allow hal_lineage_touch_default servicemanager:binder { call transfer };
