@@ -286,7 +286,7 @@ PRODUCT_PACKAGES += \
     DialerResXiaomi \
     FrameworksResTarget \
     FrameworksResXiaomi \
-    LineageResXiaomi \
+    XiaomiResCommon \
     SettingsProviderResXiaomi \
     SettingsResXiaomi \
     WifiResTarget \
